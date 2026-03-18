@@ -12,9 +12,9 @@ st.set_page_config(
 # =========================================================
 # Branding Header
 # =========================================================
-logo_path = Path("logo.png")
+logo_path = Path("yc_dashboard_logo_v2.png")
 
-col_logo, col_title = st.columns([1, 5])
+col_logo, col_title = st.columns([1, 6])
 
 with col_logo:
     if logo_path.exists():
@@ -23,12 +23,14 @@ with col_logo:
 with col_title:
     st.markdown(
         """
-        <h2 style='margin-top:0; color:#2563EB; font-weight:500;'>
-            🇵🇷Puerto Rican Population Distribution Dashboard
-        </h2>
-        <p style='margin-top:0; color:#475569;'>
-            Demographic analysis using Python, Plotly, and Streamlit
-        </p>
+        <div style='text-align: center;'>
+            <h3 style='margin-bottom:0; color:#2563EB; font-weight:500;'>
+                🇵🇷Puerto Rican Population Distribution Dashboard
+            </h3>
+            <p style='margin-top:5px; color:#64748B; font-size:14px;'>
+                Demographic analysis using Python, Plotly, and Streamlit
+            </p>
+        </div>
         """,
         unsafe_allow_html=True
     )
