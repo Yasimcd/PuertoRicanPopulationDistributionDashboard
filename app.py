@@ -18,7 +18,7 @@ col_logo, col_title = st.columns([1, 6])
 
 with col_logo:
     if logo_path.exists():
-        st.image(str(logo_path), width=200)
+        st.image(str(logo_path), width=180)
         st.markdown("<div style='margin-bottom:10px;'></div>", unsafe_allow_html=True)
 with col_title:
     st.markdown(
