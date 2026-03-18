@@ -23,10 +23,10 @@ with col_logo:
 with col_title:
     st.markdown(
         """
-        <h1 style='margin-bottom:0;'>YC Analytics</h1>
-        <h3 style='margin-top:0; color:#2563EB; font-weight:500;'>
-            Puerto Rican Population Distribution Dashboard
-        </h3>
+        #<h1 style='margin-bottom:0;'>YC Analytics</h1>
+        <h2 style='margin-top:0; color:#2563EB; font-weight:500;'>
+            🇵🇷Puerto Rican Population Distribution Dashboard
+        </h2>
         <p style='margin-top:0; color:#475569;'>
             Demographic analysis using Python, Plotly, and Streamlit
         </p>
