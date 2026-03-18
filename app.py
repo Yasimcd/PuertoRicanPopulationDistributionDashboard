@@ -5,7 +5,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Puerto Rican Population Dashboard", layout="wide")
 
-st.title("📊 Puerto Rican Population Distribution Dashboard")
+st.title("🇵🇷 Puerto Rican Population Distribution Dashboard")
 
 # Load data
 df = pd.read_csv("puerto_rican_population.csv")
