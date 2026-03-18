@@ -1,0 +1,1 @@
+Requirements:streamlitpandasplotlynumpy
