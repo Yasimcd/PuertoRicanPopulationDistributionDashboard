@@ -18,14 +18,14 @@ col_logo, col_title = st.columns([1, 6])
 
 with col_logo:
     if logo_path.exists():
-        st.image(str(logo_path), width=180)
+        st.image(str(logo_path), width=200)
         st.markdown("<div style='margin-bottom:10px;'></div>", unsafe_allow_html=True)
 with col_title:
     st.markdown(
         """
         <div style='text-align: center;'>
             <h3 style='margin-bottom:0; color:#2563EB; font-weight:500;'>
-                🇵🇷Puerto Rican Population Distribution Dashboard
+                🇵🇷 Puerto Rican Population Distribution Dashboard
             </h3>
             <p style='margin-top:5px; color:#64748B; font-size:14px;'>
                 Demographic analysis using Python, Plotly, and Streamlit
